@@ -11,11 +11,11 @@ for ($i = 1; $i <= 10; $i++) {
 ?>
 //Bai 2.
 <?php
+$n = 17;
 $so = true;
 if ($n < 2) {
     $so = false;
 } else {
-    // Kiểm tra n có chia hết cho số nào từ 2 đến n-1 không
     for ($i = 2; $i < $n; $i++) {
         if ($n % $i == 0) {
             $so = false;
